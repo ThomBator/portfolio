@@ -7,9 +7,8 @@ import { astroImageTools } from 'astro-imagetools';
 
 // https://astro.build/config
 export default defineConfig({
-  // base: '.', // Set a path prefix.
   site: 'https://thombator.github.io',
-  base: '/portfolio'
+  base: '/portfolio',
   experimental: {
     integrations: true,
   },
