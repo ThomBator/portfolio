@@ -17,7 +17,7 @@ const Hero = () => (
         <>
           I'm a junior software developer from Toronto, Canada. I graduated with
           my <GradientText>B.S. Computer Science </GradientText> from Western
-          Governors University Fall 2022. Currently looking for roles in
+          Governors University in Fall 2022. Currently looking for roles in
           backend, front-end and full-stack development.
         </>
       }
