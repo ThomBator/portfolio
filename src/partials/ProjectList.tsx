@@ -18,7 +18,7 @@ const ProjectList = () => (
       <Project
         name="MoneyCalcs"
         description={
-          'Flask-based server side rendering allows for exceptional site performance. Lighthouse scores: performance 97, accessibility 100, best practices 92, seo 90. Extensive testing to ensure form input did not lead to errors such as divide by 0 and null errors. Matplotlib used to generate custom graphs to help users visualize outcome.'
+          'Flask-based server side rendering allows for exceptional site performance. Lighthouse scores: performance 97, accessibility 100, best practices 92, seo 90. Extensive testing to ensure form input did not lead to errors such as divide by 0 and null errors. Matplotlib used to generate custom graphs to help users visualize outcomes.'
         }
         link="https://tbator1.pythonanywhere.com/"
         img={{
