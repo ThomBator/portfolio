@@ -1,9 +1,6 @@
-import {
-  GradientText,
-  HeroSocial,
-  Section,
-} from 'astro-boilerplate-components';
+import { GradientText, Section } from 'astro-boilerplate-components';
 import { HeroAvatar } from 'src/partials/HeroAvatar';
+import { HeroSocial } from 'src/partials/HeroSocial';
 
 const Hero = () => (
   <Section>
@@ -15,8 +12,8 @@ const Hero = () => (
       }
       description={
         <>
-          I'm a junior software developer from Toronto, Canada. I graduated with
-          my <GradientText>B.S. Computer Science </GradientText> from Western
+          I'm a software developer from Toronto, Canada. I graduated with my{' '}
+          <GradientText>B.S. Computer Science </GradientText> from Western
           Governors University in Fall 2022. Currently looking for roles in
           backend, front-end and full-stack development.
         </>
@@ -31,15 +28,20 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://www.linkedin.com/in/thom-bator-1bab1910/">
+          <a
+            href="https://www.linkedin.com/in/thom-bator-1bab1910/"
+            target="_blank"
+          >
             <HeroSocial
-              src="assets/images/icons8-linkedin-94.png"
+              styling=""
+              src="assets/images/icons8-linkedin-96.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="https://github.com/thombator">
+          <a href="https://github.com/thombator" target="_blank">
             <HeroSocial
-              src="assets/images/icons8-github-94.png"
+              styling="bg-white rounded-full"
+              src="assets/images/icons8-github-96.png"
               alt="Github Icon"
             />
           </a>

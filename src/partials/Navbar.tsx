@@ -1,5 +1,4 @@
 import {
-  Logo,
   NavbarTwoColumns,
   NavMenu,
   NavMenuItem,
@@ -9,9 +8,7 @@ import {
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
-      <a href="/">
-        <Logo icon="" name="Junior Software Developer" />
-      </a>
+      <div></div>
       <NavMenu>
         <NavMenuItem href="#about">About</NavMenuItem>
         <NavMenuItem href="#skills">Skills</NavMenuItem>
