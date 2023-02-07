@@ -8,7 +8,6 @@ import { astroImageTools } from 'astro-imagetools';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://thombator.github.io',
-  base: '/portfolio',
 
   experimental: {
     integrations: true,

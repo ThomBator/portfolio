@@ -32,7 +32,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
             <Tags color={ColorTags.ROSE}>Flask</Tags>
             <Tags color={ColorTags.LIME}>JavaScript</Tags>
-            <Tags color={ColorTags.SKY}>Matplotlib</Tags>
+            <Tags color={ColorTags.INDIGO}>Matplotlib</Tags>
           </>
         }
       />
@@ -72,8 +72,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
             <Tags color={ColorTags.INDIGO}>Matplotlib</Tags>
             <Tags color={ColorTags.ROSE}>Scikit-Learn</Tags>
-            <Tags color={ColorTags.ROSE}>Pandas</Tags>
-            <Tags color={ColorTags.ROSE}>Google Colab</Tags>
+            <Tags color={ColorTags.AMBER}>Pandas</Tags>
+            <Tags color={ColorTags.EMERALD}>Google Colab</Tags>
           </>
         }
       />
