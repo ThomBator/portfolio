@@ -19,7 +19,7 @@ const ProjectList = () => (
       <Project
         name="MoneyCalcs"
         description={
-          'MoneyCalcs features two financial calculator apps that empower users to make better decisions about loans and investing. Flask-based server side rendering allows for exceptional site performance. Lighthouse scores: performance 97, accessibility 100, best practices 92, seo 90. Extensive testing to ensure form input did not lead to errors such as divide by 0 and null errors. Matplotlib used to generate custom graphs to help users visualize outcomes.'
+          'MoneyCalcs features two financial calculator apps that empower users to make better decisions about loans and investing. Flask-based server side rendering allows for exceptional site performance. Semantic HTML and image alt text optimizes site accessibility and improves SEO. Extensive testing to ensure form input did not lead to errors such as divide by 0 and null errors. Matplotlib used to generate custom graphs to help users visualize outcomes.'
         }
         link="https://github.com/ThomBator/financial-calculators"
         link2="https://tbator1.pythonanywhere.com/"
@@ -33,6 +33,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.ROSE}>Flask</Tags>
             <Tags color={ColorTags.LIME}>JavaScript</Tags>
             <Tags color={ColorTags.INDIGO}>Matplotlib</Tags>
+            <Tags color={ColorTags.ORANGE}>Bootstrap</Tags>
           </>
         }
       />
