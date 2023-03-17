@@ -5,7 +5,7 @@ import {
   Tags,
 } from 'astro-boilerplate-components';
 
-import { Project } from './Project.tsx';
+import { Project } from './Project';
 
 const ProjectList = () => (
   <Section
@@ -16,6 +16,28 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
+      <Project
+        name="GoGros"
+        description={
+          'GoGros is a simple grocery list app built using React(vite), Express.js and Supabase for the PostgreSQL databse. Typesrcipt and automated unit and integration tests with react-testing-library and vitest (Vite jest equivalent) ensure project maintanability and scalability. Chakra-UI provides a robust component ecosystem to create production quality UI.'
+        }
+        link="https://github.com/ThomBator/grocery-fullstack/blob/main/README.md"
+        link2="https://grocery-frontend-seven.vercel.app/"
+        img={{
+          src: 'assets/images/bag-iso-color.png',
+          alt: 'Project Web Design',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.LIME}>TypesScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>React</Tags>
+            <Tags color={ColorTags.ROSE}>Express.js</Tags>
+            <Tags color={ColorTags.INDIGO}>PostgreSQL</Tags>
+            <Tags color={ColorTags.ORANGE}>Chakra-UI</Tags>
+          </>
+        }
+      />
+
       <Project
         name="MoneyCalcs"
         description={

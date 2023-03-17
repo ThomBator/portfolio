@@ -31,6 +31,7 @@ const SkillsList = () => (
             <div className=" ml-3 flex flex-wrap gap-2">
               <Tags color={ColorTags.VIOLET}>Java</Tags>
               <Tags color={ColorTags.EMERALD}>Python</Tags>
+              <Tags color={ColorTags.FUCHSIA}>TypeScript</Tags>
               <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
               <Tags color={ColorTags.RED}>C++</Tags>
               <Tags color={ColorTags.ORANGE}>SQL</Tags>
