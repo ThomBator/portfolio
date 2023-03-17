@@ -19,7 +19,7 @@ const ProjectList = () => (
       <Project
         name="GoGros"
         description={
-          'GoGros is a simple grocery list app built using React(vite), Express.js and Supabase for the PostgreSQL databse. Typesrcipt and automated unit and integration tests with react-testing-library and vitest (Vite jest equivalent) ensure project maintanability and scalability. Chakra-UI provides a robust component ecosystem to create production quality UI.'
+          'GoGros is a grocery list app built using React(Vite), Express.js and Supabase for the PostgreSQL databse. TypeScript and automated tests with react-testing-library and Vitest (Vite Jest equivalent) ensure project maintanability and scalability. Chakra-UI provides a robust component ecosystem to create production quality UI.'
         }
         link="https://github.com/ThomBator/grocery-fullstack/blob/main/README.md"
         link2="https://grocery-frontend-seven.vercel.app/"
