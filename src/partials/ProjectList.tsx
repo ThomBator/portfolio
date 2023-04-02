@@ -25,7 +25,7 @@ const ProjectList = () => (
         link2="https://grocery-frontend-seven.vercel.app/"
         img={{
           src: 'assets/images/bag-iso-color.png',
-          alt: 'Project Web Design',
+          alt: 'Shopping bag',
         }}
         category={
           <>
@@ -39,6 +39,29 @@ const ProjectList = () => (
       />
 
       <Project
+        name="Carbon Offset Simulator"
+        description={
+          'Carbon Offset Simulator allows users to discover the costs associated with offsetting their personal annual CO2 emissions. React-hook-form is utilized to handle form validation and implement several dynamic form features. Recharts is utilized to create custom animated graphs to help users better understand their carbon offset and expenditure projections. Calculations for simulation are executed on an Express.js backend, which is hosted using Railway.app.'
+        }
+        link="https://github.com/ThomBator/Carbon-Offset-Calculator"
+        link2="https://ephemeral-florentine-46122c.netlify.app/"
+        img={{
+          src: 'assets/images/travel-iso-color.png',
+          alt: 'Suitcase',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.LIME}>JavascriptScript</Tags>
+            <Tags color={ColorTags.INDIGO}>React</Tags>
+            <Tags color={ColorTags.ROSE}>Express.js</Tags>
+            <Tags color={ColorTags.BLUE}>React-Hook-Form</Tags>
+            <Tags color={ColorTags.GREEN}>Recharts</Tags>
+            <Tags color={ColorTags.ORANGE}>Bootstrap</Tags>
+          </>
+        }
+      />
+
+      <Project
         name="MoneyCalcs"
         description={
           'MoneyCalcs features two financial calculator apps that empower users to make better decisions about loans and investing. Flask-based server side rendering allows for exceptional site performance. Semantic HTML and image alt text optimizes site accessibility and improves SEO. Extensive testing to ensure form input did not lead to errors such as divide by 0 and null errors. Matplotlib used to generate custom graphs to help users visualize outcomes.'
@@ -47,7 +70,7 @@ const ProjectList = () => (
         link2="https://tbator1.pythonanywhere.com/"
         img={{
           src: 'assets/images/dollar-iso-color.png',
-          alt: 'Project Web Design',
+          alt: 'Dollar',
         }}
         category={
           <>
@@ -89,7 +112,7 @@ const ProjectList = () => (
         "
         link="https://github.com/ThomBator/online-fraud-detection"
         link2="https://colab.research.google.com/github/ThomBator/online-fraud-detection/blob/main/online-fraud-detection.ipynb"
-        img={{ src: 'assets/images/card-iso-color.png', alt: 'Project Maps' }}
+        img={{ src: 'assets/images/card-iso-color.png', alt: 'Credit Card' }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Python</Tags>
